@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWAT.74</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ✅ عنوان الموقع مع تعديل الخلفية -->
+    <h1 class="site-title">أهلا بكم في العالم الغامض</h1>
+
+    <!-- ✅ الشرح فوق الأزرار -->
+    <div class="description">
+        <p>هذه الأدوات تساعدك على تحليل الأسواق واتخاذ قرارات مالية أفضل، اختر أحد التحليلات أدناه:</p>
+    </div>
+
+    <!-- ✅ الأزرار في الوسط -->
+    <div class="buttons-container">
+        <button class="button" onclick="openPopup('تحليل اليوم', 'هذا هو تحليل اليوم...')">تحليل اليوم</button>
+        <button class="button" onclick="openPopup('تحليل الأسبوع القادم', 'هذا هو تحليل الأسبوع القادم...')">تحليل الأسبوع القادم</button>
+        <button class="button" onclick="openPopup('تحليل غدًا', 'هذا هو تحليل غدًا...')">تحليل غدًا</button>
+        <button class="button" onclick="openPopup('صفقات سكالبينج', 'هذه صفقات سكالبينج...')">صفقات سكالبينج</button>
+    </div>
+
+    <!-- ✅ نافذة منبثقة -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2 id="popup-title"></h2>
+            <p id="popup-text"></p>
+        </div>
+    </div>
+
+    <!-- ✅ زر إنستجرام -->
+    <div class="instagram-container">
+        <a href="https://www.instagram.com/swat_.74/" target="_blank" class="instagram-link">
+            <img src="instagram-logo.png" alt="Instagram" class="instagram-icon">
+            swat_.74
+        </a>
+    </div>
+
+    <!-- ✅ ملف JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* ✅ جعل الصفحة تغطي الشاشة بالكامل */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222; /* خلفية داكنة */
+    color: white;
+    text-align: center;
+}
+
+/* ✅ تحسين تصميم المقدمة (`h1`) */
+.site-title {
+    background-color: rgba(51, 51, 51, 0.8); /* لون رمادي داكن شفاف */
+    color: white;
+    display: inline-block; /* يجعل الخلفية بحجم النص فقط */
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* ✅ تعديل لون الخلفية الرمادية لتكون أغمق قليلاً */
+.description {
+    text-align: center;
+    background-color: rgba(100, 100, 100, 0.8); /* لون رمادي أغمق */
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 50%;
+    margin: 20px auto; /* توسيط العنصر أفقيًا */
+}
+
+/* ✅ توسيط الأزرار وجعلها فوق بعضها */
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* ✅ تصميم الأزرار */
+.button {
+    background-color: gold;
+    color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* ✅ تأثير عند تمرير الماوس على الأزرار */
+.button:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+/* ✅ تصميم النافذة المنبثقة */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* ✅ زر إغلاق النافذة المنبثقة */
+.close-btn {
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+/* ✅ زر الإنستجرام */
+.instagram-container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+.instagram-link {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.instagram-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.instagram-link:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+/* ✅ جعل الصفحة تغطي الشاشة بالكامل مع الخلفية */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("background.jpg"); /* ضع اسم ملف الخلفية الصحيح */
+    background-size: cover; /* يجعل الصورة تغطي الشاشة بالكامل */
+    background-position: center; /* يضمن توسيط الصورة */
+    background-attachment: fixed; /* يجعل الخلفية ثابتة عند التمرير */
+    background-color: #222; /* لون احتياطي للخلفية إذا لم يتم تحميل الصورة */
+    color: white;
+    text-align: center;
+}
